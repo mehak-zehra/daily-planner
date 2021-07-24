@@ -135,6 +135,7 @@ var updateFields = function () {
         if (workHour < currentHour) {
             inputsArr[i].setAttribute("readonly", true);
             inputsArr[i].classList.remove("active-description");
+            inputsArr[i].classList.remove("future");
         }
         else if (workHour === currentHour) {
             inputsArr[i].classList.add("active-description");
@@ -142,6 +143,7 @@ var updateFields = function () {
         else {
             inputsArr[i].removeAttribute("readonly");
             inputsArr[i].classList.remove("active-description");
+            inputsArr[i].classList.add("future");
         }
     }
 }

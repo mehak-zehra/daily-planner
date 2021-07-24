@@ -1,6 +1,6 @@
 # daily-planner
 ## Purpose
-The application is an online Daily planner that adds event. The planner updates in real time. The current time is highlighted with "blue", passed times are "disabled and future times are "white". The planner is saved in local Storage. 
+The application is an online Daily planner that adds event. The planner updates in real time. The current time is highlighted with "blue", passed times are "disabled and future times are "green". The planner is saved in local storage. 
 
 ## Built With
 * HTML
